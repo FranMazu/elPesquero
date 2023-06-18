@@ -1,50 +1,10 @@
-.padreFoto{
-    display: flex;
+.section1{
+    margin-top: 20%;
+    height: 300px;
+    text-align: center;
 }
 
-.bordeFoto{
-    width: 100%;
-    align-items: center;
-    margin: 2%;
+.preVideo{
+    height: 200px;
+    border-radius: 10px;
 }
-
-.bordeFoto img{
-    width: 100%;
-    border-radius: 2%;
-}
-
-
-#contenedorParrafo {
-    border: 1px solid black;
-    position: relative; /* Asegura que el contenedor sea el marco de referencia para el párrafo */
-    width: 250px; /* Ajusta el ancho del contenedor según tus necesidades */
-    height: 50px; /* Ajusta la altura del contenedor según tus necesidades */
-    margin-right:5%;
-    margin-left: 5%;
-  }
-  
-  #parrafo {
-    font-size: 20px;
-    opacity: 0; /* Inicialmente, el párrafo estará oculto */
-    position: absolute;
-    top: 50%; /* Posiciona el párrafo verticalmente en el centro del contenedor */
-    left: 50%; /* Posiciona el párrafo horizontalmente en el centro del contenedor */
-    transform: translate(-50%, -50%); /* Ajusta la posición para centrarlo exactamente */
-    animation-name: aparecerDesdeCentro;
-    animation-duration: 1s; /* Duración de la animación */
-    animation-delay: 0.5s; /* Retardo antes de que la animación comience */
-    animation-fill-mode: forwards; /* El elemento se mantiene en su estado final después de la animación */
-  }
-  
-  @keyframes aparecerDesdeCentro {
-    from {
-      opacity: 0;
-      transform: translate(-50%, -50%) scale(0.5); /* Inicia con escala reducida */
-    }
-    to {
-      opacity: 1;
-      transform: translate(-50%, -50%) scale(1); /* Termina con escala original */
-    }
-  }
-
-
