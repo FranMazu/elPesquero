@@ -1,0 +1,9 @@
+.logoContainer{
+  text-align: center;
+}
+
+.headerBar{
+  background-color:rgba(26,36,48,255);
+  width: 100%;
+  height: 130px;
+}
