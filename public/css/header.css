@@ -1,0 +1,21 @@
+.headerBar{
+    background-color: #2C6448;
+    height: 70px;
+    width: 100%;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center; /* Centra el logo horizontalmente */
+    align-items: center; /* Centra el logo verticalmente dentro de la altura del contenedor */
+    height: 60px; /* Ajusta la altura del contenedor */
+    width: 100%; /* Ocupa todo el ancho del header */
+    position: relative; /* Asegura que cualquier posicionamiento absoluto de elementos dentro sea relativo a este contenedor */
+     /* Ajusta el logo para que quede entre los dos .headerBar, puede necesitar ajustes */
+}
+
+.logo{
+    width:280PX;
+    height:280px;
+
+}

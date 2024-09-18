@@ -1,129 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" href="/images/logo.jpg" type="image/png">
-    <link rel="stylesheet" href="/css/body-header.css">
-    <link rel="stylesheet" href="/css/section1.css">
-    <link rel="stylesheet" href="/css/section2.css">
-    <link rel="stylesheet" href="/css/section3.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <title>El Gauchito</title>
+    <title>Recreo "El Gauchito"</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="headerBar">
-            <img class="imgLogo" src="/images/logo.png" alt="logo" height="200px" width="200px">
+    <header>
+        <section class="headerBar"></section>
+        <div class="logoContainer">
+            <img class="logo" src="images/logo.png" alt="">
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+        <section class="headerBar"></section>
     </header>
 
-    <main>
-
-        <section class="section1"> 
-
-            <img class="preVideo" src="/images/banner.jpg" alt="banner">
-
-            <div class="texto1">
-
-                <p>Bienvenido al pesquero "El Gauchito", en esta pagina vas a encontrar toda la info que necesitas para elegirnos como tu proxima salida de fin de semana!</p>
-
+    <section class="section2">
+        <div class="carrousel">
+            <div class="grande">
+                <img src="images/Pesca2.jpg" alt="imagen1" height="250" width="310">
+                <img src="images/orilla.jpg" alt="imagen2" height="250" width="310">
+                <img src="images/Pesca3.webp" alt="imagen3" height="250" width="310">
             </div>
 
-
-        </section>
-
-        <section class="section2"> 
-
-            <div class="textoCentral">
-
-                <h1>De la forma que prefieras...</h1> 
-
-            </div>
-
-            <div data-aos="fade-right" class="imagenLateralDerecha">
-
-                <img class="orillaImg" src="/images/orilla.jpg" alt="">
-                <p>Desde la orilla</p>
-            </div>
+            <ul class="puntos">
+                <li class="punto activo"></li>
+                <li class="punto"></li>
+                <li class="punto"></li>
+            </ul>
+        </div>
+    </section>
 
 
-            <div class="containerImgIzq"> </div>
-            <div data-aos="fade-left" class="imagenLateralIzquierda">
-
-                <img class="boteImg" src="/images/bote.jpg" alt="">
-                <p>Te llevamos</p>
-
-            </div>
-
-        </section>
-
-        <h1 class="textoCentral">¡Pero no te podes perder esto!</h1>
-
-        <section class="section3">
-
-            <div class="containerCamping">
-
-                <h1 class="textoCentral">Y si tenes ganas de mas la opcion de acampar siempre espera!</h1>
-
-                <img src="/images/camping.jpg" class="imgCamping">
-
-            </div>
-
-        </section>
-
-
-        <footer>
-
-            <h1 class="textoCentral">Contactanos!</h1>
-
-            <div class="containerMinisImg">
-
-                <div class="imgMini">
-
-                    <img src="/images/ubi.png" alt="ubi" class="ubiImg">
-
-                </div>
-
-                
-                <div class="imgMini">
-
-                    <img src="/images/face.png" alt="face" class="faceImg">
-
-                </div>
-
-                
-                <div class="imgMini">
-
-                    <img src="/images/cel.png" alt="cel" class="celImg">
-
-                </div>
-
-
-            </div>
-
-
-        </footer>
-
-
-    </main>
-
-
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration:1000
-        });
-      </script>
+    <script src="scripts/carrousel.js"></script>
 </body>
 </html>

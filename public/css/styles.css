@@ -1,0 +1,20 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+    background-image: url('../images/Fondo.jpg'); /* Cambia la ruta a la ubicación de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el cuerpo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
+}
+
+h1 {
+    font-family: 'Island Moments', cursive; /* Tipografía personalizada para h1 */
+}
