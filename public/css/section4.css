@@ -1,0 +1,12 @@
+.contenedorVideo {
+    margin-top: 8em;
+    padding: 1em; /* Espacio alrededor del video */
+
+    border-radius: 10px; /* Bordes redondeados del contenedor (opcional) */
+}
+
+video {
+    border-radius: 10px; /* Bordes redondeados del video (opcional) */
+    width: 100%; /* Ajusta el video al ancho del contenedor */
+    height: auto; /* Mantiene la proporción del video */
+}
