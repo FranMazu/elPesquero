@@ -1,0 +1,26 @@
+.contenedorTextImg{
+    height: 200px;
+    border: 1px solid rgb(66, 228, 26);
+    margin: 1.5%;
+}
+
+.contenedorTextImg .padreTextImg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorTextImg .text{
+    height: 120px;
+    border: 1px solid black;
+    margin: 1%;
+}
+
+
+
+
+
+
+.contenedorTextImg img{
+    height: 120px;
+    width: auto;
+}
