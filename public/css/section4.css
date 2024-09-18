@@ -1,7 +1,6 @@
 .contenedorVideo {
     margin-top: 8em;
     padding: 1em; /* Espacio alrededor del video */
-
     border-radius: 10px; /* Bordes redondeados del contenedor (opcional) */
 }
 
